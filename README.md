@@ -13,10 +13,10 @@ If you run into trouble while coding, fight the good fight for 20 minutes and th
 ### Task 1 - Set up Project
 
 - [V] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [V] Add your team lead as collaborator on Github
+- [V] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [V] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [V] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2 - MVP
