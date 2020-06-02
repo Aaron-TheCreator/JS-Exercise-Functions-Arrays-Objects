@@ -55,9 +55,12 @@ sayGoodbye("Trump");
  * Hint 1: The formula for converting celsius to fahrenheit is t*9/5 + 32 where t is the temperature in celsius.
  * Hint 2: There is a very easy way to round numbers in JS. Do a google search to find out how. 
 */
-function temperatureCtoF(/* code here */) {
-  /* code here */
-}
+function temperatureCtoF(celsius) {
+  let fahrenheit = ((celsius * 9) / 5) + 32;
+  console.log(fahrenheit);
+};
+
+temperatureCtoF(0);
 
 /**
  * ### Challenge `temperatureInF`
@@ -76,10 +79,18 @@ function temperatureCtoF(/* code here */) {
  * 
  * Hint: You can call your `temperatureCtoF` function from inside `temperatureInF`.
 */
-function temperatureInF(/* code here */) {
-  /* code here */
+function temperatureInF(temp, unit) {
+
+  let x = temp;
+  if (unit == "C") {
+    temperatureCtoF(x) + "F";
+  } else {
+    console.log(x + "F")
+  };
+
 }
 
+temperatureInF(5, "C");
 
 /**
  * ### Challenge `makePersonObject`
@@ -97,9 +108,18 @@ function temperatureInF(/* code here */) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
-}
+function makePersonObject(id, name, email) {
+  let person = {
+    id: undefined,
+    name: undefined,
+    email: undefined,
+  }
+  person.id = id;
+  person.name= name;
+  person.email = email;
+  console.log(person);
+};
+makePersonObject(3,"Aaron","a.aburns95@gmail.com");
 
 /**
  * ### Challenge `getName`
