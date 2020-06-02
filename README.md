@@ -12,7 +12,7 @@ If you run into trouble while coding, fight the good fight for 20 minutes and th
 
 ### Task 1 - Set up Project
 
-- [ ] Create a forked copy of this project
+- [V] Create a forked copy of this project
 - [ ] Add your team lead as collaborator on Github
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
